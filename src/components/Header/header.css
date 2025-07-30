@@ -1,0 +1,66 @@
+.main-navbar {
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  background-color: white;
+  transition: all 0.3s ease;
+}
+
+.sticky {
+  -webkit-animation: smoothScroll 1s forwards;
+  animation: smoothScroll 1s forwards;
+  -webkit-box-shadow: 0 -5px 15px #086ad84a;
+  box-shadow: 0 -5px 15px #086ad84a;
+}
+
+@-webkit-keyframes smoothScroll {
+  0% {
+    -webkit-transform: translateY(-142px);
+    transform: translateY(-142px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+}
+
+@keyframes smoothScroll {
+  0% {
+    -webkit-transform: translateY(-142px);
+    transform: translateY(-142px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+}
+
+.hide-header {
+  top: -100px;
+  transition: top 0.3s ease;
+}
+
+.show-header {
+  top: 0;
+  transition: top 0.3s ease;
+}
+
+.header-back {
+  height: 80px;
+}
+
+@media (max-width: 900px) {
+  .header-back {
+    height: 60px;
+  }
+}
+.social-info i {
+  color: #942780;
+  transition: 0.5s ease-in;
+}
+
+.social-info i:hover {
+  color: #942780;
+  transform: rotateY(360deg);
+}

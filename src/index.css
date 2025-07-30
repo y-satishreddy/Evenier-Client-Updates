@@ -1,0 +1,15 @@
+/* Global Reset */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden; /* This prevents horizontal scroll */
+}
+#sticky-header {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background: #fff; /* or match your design */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
