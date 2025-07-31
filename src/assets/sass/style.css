@@ -149,8 +149,17 @@ body {
     font-size: 14px;
   }
 }
-.bg-theme {
+.bg-theme-home {
   background-color: rgb(247, 247, 247);
+}
+.bg-theme {
+  background: #942780;
+  background: linear-gradient(
+    90deg,
+    rgba(148, 39, 128, 1) 0%,
+    rgba(201, 84, 51, 1) 60%,
+    rgba(253, 197, 120, 1) 100%
+  );
 }
 p {
   font-size: 18px;
@@ -579,7 +588,7 @@ a.ui-button:active,
   margin: 0;
   position: relative;
   font-family: "gilroy", sans-serif;
-  color: #323232;
+  color: white;
   display: inline-block;
   padding-bottom: 20px;
   position: relative;
@@ -637,6 +646,7 @@ a.ui-button:active,
 .wpo-section-title p,
 .wpo-section-title-s2 p {
   font-size: 18px;
+  color: white;
 }
 
 .wpo-section-title-s2 .section-title-img .round-ball {
@@ -18709,4 +18719,12 @@ a.knowmore:hover {
   .logo {
     display: block !important;
   }
+}
+.wpo-section-title p,
+.wpo-section-title-s2 p {
+  font-size: 18px;
+  color: white;
+}
+.text-dark-custom {
+  color: #848892 !important;
 }

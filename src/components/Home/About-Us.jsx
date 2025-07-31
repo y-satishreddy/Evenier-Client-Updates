@@ -8,19 +8,23 @@ const AboutSection = () => {
   }, []);
 
   return (
-    <section className="section-padding bg-theme min-vh-lg-100 min-vh-sm-auto d-flex align-items-center justify-content-center">
+    <section className="section-padding min-vh-lg-100 min-vh-sm-auto d-flex align-items-center justify-content-center bg-theme-home">
       <div className="container">
-        <div className="wpo-section-title no-margin-bottom no-lines responsive-section text-center">
+        <div className="wpo-section-title no-margin-bottom no-lines responsive-section text-center bg-theme-home">
           <h4>About Us</h4>
 
-          <h2 className="mb-3" data-aos="zoom-in" data-aos-duration="1000">
+          <h2
+            className="mb-3 text-dark"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+          >
             Well-planned events,
             <br /> trusted by many
           </h2>
 
           <span className="curtain-reveal"></span>
 
-          <p>
+          <p className="text-dark-custom">
             At Evenire, we do more than organise events. We create experiences
             that reflect who you are and what you imagine. Whether it is a
             quiet, intimate wedding or a grand celebration filled with hundreds
