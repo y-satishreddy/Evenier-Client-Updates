@@ -1,14 +1,32 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { useInView } from "react-intersection-observer";
 
 const ContactPageSection = () => {
   useEffect(() => {
     AOS.init({
-      duration: 1000,
-      once: true, // 👈 ensures animation runs only once
+      duration: 800,
+      once: true,
+      easing: "ease-in-out",
     });
   }, []);
+
+  // InView refs
+  const [addressRef, addressInView] = useInView({
+    threshold: 0,
+    triggerOnce: true,
+  });
+  const [emailRef, emailInView] = useInView({
+    threshold: 0,
+    triggerOnce: true,
+  });
+  const [callRef, callInView] = useInView({ threshold: 0, triggerOnce: true });
+  const [titleRef, titleInView] = useInView({
+    threshold: 0,
+    triggerOnce: true,
+  });
+  const [formRef, formInView] = useInView({ threshold: 0, triggerOnce: true });
 
   return (
     <section className="wpo-contact-pg-section section-padding-60">
@@ -17,11 +35,19 @@ const ContactPageSection = () => {
           <div className="col col-lg-10 offset-lg-1">
             <div className="office-info">
               <div className="row">
+                {/* Address */}
                 <div
                   className="col col-xl-4 col-lg-6 col-md-6 col-12"
-                  data-aos="fade-up"
+                  ref={addressRef}
                 >
-                  <div className="office-info-item">
+                  <div
+                    className={`office-info-item ${
+                      addressInView ? "aos-animate" : ""
+                    }`}
+                    data-aos="fade-up"
+                    data-aos-delay="0"
+                    data-aos-duration="1000"
+                  >
                     <div className="office-info-icon">
                       <div className="icon">
                         <i className="fi flaticon-maps-and-flags"></i>
@@ -34,12 +60,19 @@ const ContactPageSection = () => {
                   </div>
                 </div>
 
+                {/* Email */}
                 <div
                   className="col col-xl-4 col-lg-6 col-md-6 col-12"
-                  data-aos="fade-up"
-                  data-aos-delay="100"
+                  ref={emailRef}
                 >
-                  <div className="office-info-item">
+                  <div
+                    className={`office-info-item ${
+                      emailInView ? "aos-animate" : ""
+                    }`}
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                    data-aos-duration="1000"
+                  >
                     <div className="office-info-icon">
                       <div className="icon">
                         <i className="fi flaticon-email"></i>
@@ -52,12 +85,20 @@ const ContactPageSection = () => {
                     </div>
                   </div>
                 </div>
+
+                {/* Phone */}
                 <div
                   className="col col-xl-4 col-lg-6 col-md-6 col-12"
-                  data-aos="fade-up"
-                  data-aos-delay="100"
+                  ref={callRef}
                 >
-                  <div className="office-info-item">
+                  <div
+                    className={`office-info-item ${
+                      callInView ? "aos-animate" : ""
+                    }`}
+                    data-aos="fade-up"
+                    data-aos-delay="200"
+                    data-aos-duration="1000"
+                  >
                     <div className="office-info-icon">
                       <div className="icon">
                         <i className="fi flaticon-phone-call"></i>
@@ -73,10 +114,15 @@ const ContactPageSection = () => {
               </div>
             </div>
 
+            {/* Title */}
             <div
-              className="wpo-contact-title"
+              className={`wpo-contact-title ${
+                titleInView ? "aos-animate" : ""
+              }`}
+              ref={titleRef}
               data-aos="zoom-in"
               data-aos-delay="300"
+              data-aos-duration="800"
             >
               <h2>Have Any Question?</h2>
               <p>
@@ -85,7 +131,16 @@ const ContactPageSection = () => {
               </p>
             </div>
 
-            <div className="wpo-contact-form-area" data-aos="fade-up">
+            {/* Contact Form */}
+            <div
+              className={`wpo-contact-form-area ${
+                formInView ? "aos-animate" : ""
+              }`}
+              ref={formRef}
+              data-aos="fade-up"
+              data-aos-delay="400"
+              data-aos-duration="800"
+            >
               <form
                 className="contact-validation-active"
                 id="contact-form-main"
@@ -118,8 +173,12 @@ const ContactPageSection = () => {
                   />
                 </div>
                 <div>
-                  <select name="service" className="form-control">
-                    <option disabled selected>
+                  <select
+                    name="service"
+                    className="form-control"
+                    defaultValue=""
+                  >
+                    <option value="" disabled>
                       Services
                     </option>
                     <option>Photography</option>

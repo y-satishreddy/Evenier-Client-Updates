@@ -1,14 +1,25 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { Link } from "react-router-dom";
-import aboutImg from "../../assets/images/about/3.jpg"; // Adjust path as needed
+import { useInView } from "react-intersection-observer";
+import aboutImg from "../../assets/images/about/3.jpg";
 
 const AboutSection = () => {
+  // InView hooks
+  const { ref: aboutRef, inView: aboutInView } = useInView({ threshold: 0.4 });
+  const { ref: visionRef, inView: visionInView } = useInView({
+    threshold: 0.4,
+  });
+  const { ref: valuesRef, inView: valuesInView } = useInView({
+    threshold: 0.4,
+  });
+
   useEffect(() => {
     AOS.init({
       duration: 1500,
-      once: true, // 👈 ensures animation happens only once on load
+      once: true,
+      offset: 0,
+      easing: "ease-in-out",
     });
   }, []);
 
@@ -16,16 +27,22 @@ const AboutSection = () => {
     <section className="wpo-about-section section-padding-60">
       <div className="container">
         <div className="wpo-about-wrap">
-          <div className="row">
+          <div className="row" ref={aboutRef}>
             <div className="col-lg-6 col-md-12 col-12">
-              <div className="wpo-about-item" data-aos="fade-left">
+              <div
+                className={`wpo-about-item ${aboutInView ? "aos-animate" : ""}`}
+                data-aos="fade-left"
+              >
                 <div className="wpo-about-img">
                   <img src={aboutImg} alt="about" />
                 </div>
               </div>
             </div>
             <div className="col-lg-6 col-md-12 col-12">
-              <div className="wpo-about-text" data-aos="fade-right">
+              <div
+                className={`wpo-about-text ${aboutInView ? "aos-animate" : ""}`}
+                data-aos="fade-right"
+              >
                 <h4>All Your Exceptional Events</h4>
                 <p>
                   We also bring the same passion and care to every kind of
@@ -52,11 +69,13 @@ const AboutSection = () => {
 
       {/* Vision & Mission */}
       <div className="container">
-        <div className="row align-items-stretch mb-5">
+        <div className="row align-items-stretch mb-5" ref={visionRef}>
           {/* Vision */}
           <div className="col-lg-6 col-md-12 mb-4 mb-lg-0">
             <div
-              className="p-4 shadow-sm wpo-about-text h-100 rounded border-left border-4 border-primary"
+              className={`p-4 shadow-sm wpo-about-text h-100 rounded border-left border-4 border-primary ${
+                visionInView ? "aos-animate" : ""
+              }`}
               data-aos="fade-right"
             >
               <h2 className="wpo-about-wrap">Vision</h2>
@@ -70,7 +89,9 @@ const AboutSection = () => {
           {/* Mission */}
           <div className="col-lg-6 col-md-12">
             <div
-              className="p-4 shadow-sm h-100 bg-white wpo-about-text rounded border-left border-4 border-success"
+              className={`p-4 shadow-sm h-100 bg-white wpo-about-text rounded border-left border-4 border-success ${
+                visionInView ? "aos-animate" : ""
+              }`}
               data-aos="fade-left"
             >
               <h2 className="mb-3">Mission</h2>
@@ -83,10 +104,12 @@ const AboutSection = () => {
         </div>
 
         {/* Core Values */}
-        <div className="row">
+        <div className="row" ref={valuesRef}>
           <div className="col-12">
             <div
-              className="p-5 shadow-sm rounded wpo-about-text text-center"
+              className={`p-5 shadow-sm rounded wpo-about-text text-center ${
+                valuesInView ? "aos-animate" : ""
+              }`}
               data-aos="fade-up"
             >
               <h2 className="mb-4">Our Core Values</h2>

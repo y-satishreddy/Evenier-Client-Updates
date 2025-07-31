@@ -12,14 +12,15 @@ const WelcomeSection = () => {
       <div className="container">
         <div className="wpo-section-title no-margin-bottom no-lines text-start p-3">
           <h2 className="text-capitalize" data-aos="zoom-in">
-            Welcome To Evenire
+            Wedding Events
           </h2>
           <p>
-            At Evenire, we do more than organise events. We create experiences
-            that reflect who you are and what you imagine. Whether it is a
-            quiet, intimate wedding or a grand celebration filled with hundreds
-            of guests, we approach each occasion with thoughtfulness,
-            creativity, and a commitment to excellence.
+            Your wedding is not just a date on the calendar; it's a celebration
+            of love. It is a collection of emotions, promises, and moments that
+            stay with you forever. From the first sketch of your vision to the
+            final walk down the aisle, we are by your side. We help you bring
+            every detail to life in a way that feels personal, heartfelt, and
+            unforgettable.
           </p>
         </div>
       </div>
