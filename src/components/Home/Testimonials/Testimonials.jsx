@@ -7,7 +7,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "aos/dist/aos.css";
 import AOS from "aos";
-import "./testimonials.css"; // custom CSS to override slick dots
+import "./testimonials.css";
 
 const TestimonialSlider = () => {
   const [nav1, setNav1] = useState(null);
@@ -27,17 +27,10 @@ const TestimonialSlider = () => {
     arrows: false,
     fade: true,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 4000,
     dots: true,
     asNavFor: nav2,
-    responsive: [
-      {
-        breakpoint: 991,
-        settings: {
-          dots: true,
-        },
-      },
-    ],
+    adaptiveHeight: true,
   };
 
   const settingsNav = {
@@ -48,20 +41,12 @@ const TestimonialSlider = () => {
     arrows: false,
     dots: false,
     autoplay: true,
-    autoplaySpeed: 3000,
-    responsive: [
-      {
-        breakpoint: 992,
-        settings: {
-          dots: true,
-        },
-      },
-    ],
+    autoplaySpeed: 4000,
   };
 
   return (
     <section className="wpo-testimonial-section section-padding-60 pt-0">
-      <div className="wpo-section-title text-center mb-5">
+      <div className="wpo-section-title">
         <h2>Testimonials</h2>
       </div>
       <div className="container">
@@ -80,7 +65,7 @@ const TestimonialSlider = () => {
                 {...settingsFor}
                 asNavFor={nav2}
                 ref={slider1}
-                className="slider-for testimonial-slider"
+                className="slider-for"
               >
                 <div className="testimonial-img">
                   <img src={img1} alt="Testimonial 1" />
