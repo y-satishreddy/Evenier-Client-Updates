@@ -1,0 +1,8 @@
+.new-icons {
+  width: 60px;
+}
+@media (max-width: 768px) {
+  .new-icons {
+    width: 70px !important;
+  }
+}

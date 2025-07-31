@@ -13,3 +13,11 @@ html {
   background: #fff; /* or match your design */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
+.new-icons {
+  width: 60px;
+}
+@media (max-width: 768px) {
+  .new-icons {
+    width: 70px !important;
+  }
+}

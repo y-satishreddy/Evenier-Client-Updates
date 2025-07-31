@@ -3,31 +3,52 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useInView } from "react-intersection-observer";
 
+import StageSetupImg from "../../assets/icons/school/svgs/AVAndLightingSolutions.svg";
+import BarricadesEntryImg from "../../assets/icons/school/svgs/BarricadesAndEntryManagement.svg";
+import AvLightingImg from "../../assets/icons/school/svgs/CoordinationAndAnchoring.svg";
+import CoordinationAnchoringImg from "../../assets/icons/school/svgs/StageSetup.svg";
+
 const services = [
   {
-    iconClass: "fi flaticon-dove",
-    title: "Stage <br/>Setup",
+    icon: StageSetupImg,
+    title: (
+      <>
+        Stage <br /> Setup
+      </>
+    ),
     desc: "If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't.",
     delay: 0,
     duration: 1000,
   },
   {
-    iconClass: "fi flaticon-edit",
-    title: "Barricades & <br/>Entry Managemen",
+    icon: BarricadesEntryImg,
+    title: (
+      <>
+        Barricades & <br /> Entry Management
+      </>
+    ),
     desc: "If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't.",
     delay: 100,
     duration: 1200,
   },
   {
-    iconClass: "fi flaticon-wedding",
-    title: "AV & Lighting <br/>Solutions",
+    icon: AvLightingImg,
+    title: (
+      <>
+        AV & Lighting <br /> Solutions
+      </>
+    ),
     desc: "If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't.",
     delay: 200,
     duration: 1400,
   },
   {
-    iconClass: "fi flaticon-dove",
-    title: "Coordination & <br/> Anchoring",
+    icon: CoordinationAnchoringImg,
+    title: (
+      <>
+        Coordination & <br /> Anchoring
+      </>
+    ),
     desc: "If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't.",
     delay: 300,
     duration: 1600,
@@ -68,12 +89,14 @@ const StageSetupSection = () => {
                       data-aos-duration={service.duration}
                     >
                       <div className="process-icon">
-                        <i className={service.iconClass}></i>
+                        <img
+                          src={service.icon}
+                          alt="service-icon"
+                          className="new-icons"
+                        />
                       </div>
                       <div className="process-text">
-                        <h3
-                          dangerouslySetInnerHTML={{ __html: service.title }}
-                        />
+                        <h3>{service.title}</h3>
                         <p>{service.desc}</p>
                       </div>
                     </div>

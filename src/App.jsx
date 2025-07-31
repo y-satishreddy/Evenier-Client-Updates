@@ -14,6 +14,7 @@ import Enquiry from "./Pages/Enquiry";
 import ScrollToTop from "./components/ScrollToTop";
 import PrivacyAndPolicy from "./pages/PrivacyAndPolicy";
 import FaArrow from "./components/Fa-Arrow/FaArrow";
+import "./App.css";
 function App() {
   return (
     <>
