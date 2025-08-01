@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useInView } from "react-intersection-observer";
-
 import BudgetStructuring from "../../assets/icons/wedding/svgs/BudgetStructuring.svg";
 import CustomEinvitesAndPrintInvites from "../../assets/icons/wedding/svgs/CustomEinvitesAndPrintInvites.svg";
 import DreamyDecor from "../../assets/icons/wedding/svgs/DreamyDecor.svg";

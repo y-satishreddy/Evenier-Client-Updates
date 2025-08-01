@@ -61,6 +61,29 @@
 }
 
 .social-info i:hover {
-  color: #942780;
+  color: #c95433;
   transform: rotateY(360deg);
+}
+.social-info-call i {
+  color: #942780;
+  transition: 0.5s ease-in;
+}
+
+.social-info-call i:hover {
+  color: #c95433;
+  transform: rotate(360deg) scale(1.2); /* rotate + enlarge */
+}
+.wpo-site-header .social-info ul li a i::before {
+  font-size: 15px;
+  color: #942780;
+  display: inline-block;
+  transition: color 0.4s ease, transform 0.4s ease; /* smooth color + animation */
+}
+
+.wpo-site-header .social-info ul li a:hover i::before {
+  color: #c95433; /* change to your desired hover color */
+  transform: rotate(360deg) scale(1.2); /* rotate + enlarge */
+}
+.navbar-brand {
+  margin-right: 0 !important;
 }

@@ -15,6 +15,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import PrivacyAndPolicy from "./pages/PrivacyAndPolicy";
 import FaArrow from "./components/Fa-Arrow/FaArrow";
 import "./App.css";
+import ErrorPage from "./components/Error-Page";
 function App() {
   return (
     <>
@@ -32,6 +33,7 @@ function App() {
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/enquiry" element={<Enquiry />} />
         <Route path="/privacy-policy" element={<PrivacyAndPolicy />} />
+        <Route path="/404" element={<ErrorPage />}></Route>
       </Routes>
       <FaArrow />
       <Footer />

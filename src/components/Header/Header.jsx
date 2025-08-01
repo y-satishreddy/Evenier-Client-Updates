@@ -157,7 +157,7 @@ const Header = () => {
                 </div>
 
                 {/* Desktop social icons */}
-                <div className="col-lg-1 d-none d-lg-block">
+                <div className="col-lg-2 d-none d-lg-block">
                   <div className="social-info">
                     <ul>
                       <li>
@@ -180,7 +180,7 @@ const Header = () => {
                 </div>
 
                 {/* Navigation */}
-                <div className="col-lg-10">
+                <div className="col-lg-8">
                   <div
                     id="navbar"
                     className="collapse navbar-collapse navigation-holder"
@@ -218,13 +218,13 @@ const Header = () => {
                         <Link to="#">Gallery</Link>
                         <ul className="sub-menu">
                           <li>
-                            <Link to="/wedding-gallery">Heading 1</Link>
+                            <Link to="/wedding-gallery">Wedding</Link>
                           </li>
                           <li>
-                            <Link to="/wedding-gallery">Heading 2</Link>
+                            <Link to="/wedding-gallery">School</Link>
                           </li>
                           <li>
-                            <Link to="/wedding-gallery">Heading 3</Link>
+                            <Link to="/wedding-gallery">Corporate</Link>
                           </li>
                         </ul>
                       </li>
@@ -239,9 +239,9 @@ const Header = () => {
                 </div>
 
                 {/* Desktop Call Icon */}
-                <div className="col-lg-1 d-none d-lg-block">
+                <div className="col-lg-2 d-none d-lg-block">
                   <div className="header-right">
-                    <a href="tel:9199223442" className="social-info">
+                    <a href="tel:9199223442" className="social-info-call">
                       <i className="fa fa-phone" aria-hidden="true"></i>
                     </a>
                   </div>

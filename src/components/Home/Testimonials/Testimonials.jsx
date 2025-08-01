@@ -47,7 +47,7 @@ const TestimonialSlider = () => {
   return (
     <section className="wpo-testimonial-section section-padding-60 pt-0">
       <div className="wpo-section-title">
-        <h2>Testimonials</h2>
+        <h2 className="text-dark">Testimonials</h2>
       </div>
       <div className="container">
         <div
