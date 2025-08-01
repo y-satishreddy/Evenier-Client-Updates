@@ -13,7 +13,12 @@ const Error404 = () => {
             <div className="col col-xs-12">
               <div className="content clearfix">
                 <div className="error">
-                  <img src={errorImg} alt="" />
+                  <img
+                    src={errorImg}
+                    alt="404 Error"
+                    className="img-fluid d-block mx-auto"
+                    style={{ maxWidth: "500px" }}
+                  />
                 </div>
                 <div className="error-message">
                   <h3>Oops! Page Not Found!</h3>

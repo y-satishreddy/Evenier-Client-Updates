@@ -2,9 +2,9 @@ import React, { useEffect } from "react";
 import { Link } from "react-router-dom"; // Import Link for React Router
 import AOS from "aos";
 import "aos/dist/aos.css";
-import serviceImg1 from "../../../assets/images/service/img-1.jpg"; // Adjust the path as needed
-import serviceImg2 from "../../../assets/images/service/img-2.jpg";
-import serviceImg3 from "../../../assets/images/service/img-3.jpg";
+import serviceImg1 from "../../../assets/images/service/weddingService.jpg"; // Adjust the path as needed
+import serviceImg2 from "../../../assets/images/service/corporateService.jpg";
+import serviceImg3 from "../../../assets/images/service/schoolService.jpg";
 
 const ServicesSection = () => {
   useEffect(() => {
