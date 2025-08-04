@@ -11,15 +11,15 @@ const AboutSection = () => {
     <section className="section-padding min-vh-lg-100 min-vh-sm-auto d-flex align-items-center justify-content-center bg-theme-home">
       <div className="container">
         <div className="wpo-section-title no-margin-bottom no-lines responsive-section text-center bg-theme-home">
-          <h4>About Us</h4>
+          {/* <h4>About Us</h4> */}
 
           <h2
             className="mb-3 text-dark"
             data-aos="zoom-in"
             data-aos-duration="1000"
           >
-            Well-planned events,
-            <br /> trusted by many
+            Welcome To Evenire <br />
+            For All Your Exceptional Events
           </h2>
 
           <span className="curtain-reveal"></span>

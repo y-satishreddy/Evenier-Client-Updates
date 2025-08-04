@@ -12,7 +12,7 @@ const WelcomeSection = () => {
       <div className="container">
         <div className="wpo-section-title no-margin-bottom no-lines text-start p-3">
           <h2 className="text-capitalize" data-aos="zoom-in">
-            Welcome To Evenire
+            About Us
           </h2>
           <p>
             At Evenire, we do more than organise events. We create experiences

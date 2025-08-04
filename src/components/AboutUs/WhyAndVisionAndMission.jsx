@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useInView } from "react-intersection-observer";
-import aboutImg from "../../assets/images/about/3.jpg";
+import aboutImg from "../../assets/images/portfolio/12.jpg";
 
 const AboutSection = () => {
   // InView hooks
@@ -43,7 +43,10 @@ const AboutSection = () => {
                 className={`wpo-about-text ${aboutInView ? "aos-animate" : ""}`}
                 data-aos="fade-right"
               >
-                <h4>All Your Exceptional Events</h4>
+                <h4>
+                  Welcome To Evenire <br />
+                  All Your Exceptional Events
+                </h4>
                 <p>
                   We also bring the same passion and care to every kind of
                   gathering, from small-scale private events to large-scale
@@ -78,7 +81,7 @@ const AboutSection = () => {
               }`}
               data-aos="fade-right"
             >
-              <h2 className="wpo-about-wrap">Vision</h2>
+              <h2 className="wpo-about-wrap gilroy-font">Vision</h2>
               <p>
                 To be the most trusted event management company in India, known
                 for creativity, seamless execution, and heartfelt experiences.
@@ -94,7 +97,7 @@ const AboutSection = () => {
               }`}
               data-aos="fade-left"
             >
-              <h2 className="mb-3">Mission</h2>
+              <h2 className="mb-3 gilroy-font">Mission</h2>
               <p>
                 To craft events that feel like magic, grounded in planning,
                 powered by people, and inspired by your imagination.
@@ -112,7 +115,7 @@ const AboutSection = () => {
               }`}
               data-aos="fade-up"
             >
-              <h2 className="mb-4">Our Core Values</h2>
+              <h2 className="mb-4 gilroy-font ">Our Core Values</h2>
               <div className="row justify-content-center wpo-about-text text-start">
                 <div className="col-md-6 col-lg-3 mb-3">
                   <p>Creativity with Purpose</p>

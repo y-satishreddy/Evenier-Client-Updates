@@ -70,7 +70,11 @@ const Banner = () => {
 
       <div className="wedding-announcement">
         <div className="couple-text">
-          <h2 data-aos="fade-up" data-aos-duration="1000">
+          <h2
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            className="gilroy-font"
+          >
             Planning Your Everlasting Memories
           </h2>
           <p data-aos="fade-up" data-aos-duration="1800">

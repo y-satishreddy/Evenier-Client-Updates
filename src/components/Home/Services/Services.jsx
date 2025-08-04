@@ -16,7 +16,7 @@ const ServicesSection = () => {
       <div className="container">
         <div className="wpo-section-title">
           <h4>Our Services</h4>
-          <h2>WHAT WE OFFER FOR YOU</h2>
+          <h2 className="text-dark">WHAT WE OFFER FOR YOU</h2>
         </div>
         <div className="wpo-Service-wrap">
           <div className="row">

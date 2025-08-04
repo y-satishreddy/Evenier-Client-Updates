@@ -18,9 +18,9 @@ const Collaborators = () => {
   const repeatedPartners = [...partners, ...partners];
 
   return (
-    <section className="wpo-partners-section">
-      <div className="wpo-section-title text-center">
-        <h4>Collaborators</h4>
+    <section className="wpo-partners-section section-padding-60">
+      <div class="wpo-section-title text-dark">
+        <h2 className="text-dark">Collaborators</h2>
       </div>
       <div className="container">
         <div className="row">

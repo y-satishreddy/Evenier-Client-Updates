@@ -28,8 +28,8 @@ const ContactSection = () => {
             <div className="wpo-contact-section-wrapper">
               <div className="wpo-contact-form-area" data-aos="zoom-in">
                 <div className="wpo-section-title">
-                  <h4>Lets Meet</h4>
-                  <h2>Make An Inquiry</h2>
+                  <h4>Let’s bring your next event to life</h4>
+                  <h2>Anytime & Anywhere</h2>
                 </div>
                 <form
                   method="post"

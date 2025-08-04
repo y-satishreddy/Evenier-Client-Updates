@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import aboutImg from "../../assets/images/about/1.png"; // adjust the path as needed
+import aboutImg from "../../assets/images/product/7.jpg"; // adjust the path as needed
 
 const WhyChooseUs = () => {
   useEffect(() => {
@@ -37,9 +37,9 @@ const WhyChooseUs = () => {
                 data-aos="fade-right"
                 data-aos-duration="1600"
               >
-                <div className="education-area ex-wiget">
-                  <h2>Why Choose Evenire?</h2>
-                  <ul>
+                <div>
+                  <h4>Why Choose Evenire?</h4>
+                  <ul className="ml-25">
                     <li>15+ Years of Experience</li>
                     <li>10,000+ Decor Projects Completed</li>
                     <li>30+ Full-time Professionals</li>
