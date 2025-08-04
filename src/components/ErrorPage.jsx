@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import errorImg from "../assets/images/error-404.svg"; // Adjust path as needed
-import Header from "../components/Header/Header";
+import Header from "./Header/Header";
 const Error404 = () => {
   return (
     // start error-404-section

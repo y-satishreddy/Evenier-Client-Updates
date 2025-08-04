@@ -1,6 +1,6 @@
 import React from "react";
 import Banner from "../components/Home/Banner/Banner";
-import AboutUs from "../components/Home/About-Us";
+import AboutUs from "../components/Home/AboutUs";
 import Services from "../components/Home/Services/Services";
 import Counter from "../components/Home/Counter/Counter";
 import Form from "../components/Home/Form/Form";

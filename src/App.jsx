@@ -2,20 +2,20 @@ import { Routes, Route } from "react-router-dom";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
-import AboutUs from "./pages/About-Us";
-import Contact from "./pages/Contact-Us";
+import AboutUs from "./pages/AboutUs";
+import Contact from "./pages/ContactUs";
 import Imports from "../src/components/Imports/Imports";
-import WeddingEvents from "./pages/Wedding-Events";
-import SchoolEvents from "./pages/School-Events";
-import ContactUs from "./pages/Contact-Us";
-import CorporateEvents from "./pages/Corporate-Events";
-import WeddingGallery from "./pages/Wedding-Gallery";
+import WeddingEvents from "./pages/WeddingEvents";
+import SchoolEvents from "./pages/SchoolEvents";
+import ContactUs from "./pages/ContactUs";
+import CorporateEvents from "./pages/CorporateEvents";
+import WeddingGallery from "./pages/WeddingGallery";
 import Enquiry from "./Pages/Enquiry";
 import ScrollToTop from "./components/ScrollToTop";
 import PrivacyAndPolicy from "./pages/PrivacyAndPolicy";
-import FaArrow from "./components/Fa-Arrow/FaArrow";
+import FaArrow from "./components/FaArrow/FaArrow";
 import "./App.css";
-import ErrorPage from "./components/Error-Page";
+import ErrorPage from "./components/ErrorPage";
 function App() {
   return (
     <>

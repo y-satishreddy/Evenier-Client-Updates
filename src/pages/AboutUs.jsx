@@ -1,7 +1,7 @@
 import React from "react";
-import Banner from "../components/About-Us/Banner";
-import WhyVisionAndMission from "../components/About-Us/WhyAndVisionAndMission";
-import WhyUs from "../components/About-Us/WhyUs";
+import Banner from "../components/AboutUs/Banner";
+import WhyVisionAndMission from "../components/AboutUs/WhyAndVisionAndMission";
+import WhyUs from "../components/AboutUs/WhyUs";
 import Header from "../components/Header/Header";
 import Imports from "../components/Imports/Imports";
 const AboutUs = () => {
