@@ -29,7 +29,7 @@ const VideoSection = () => {
         </div>
       </section>
       <div className="d-flex justify-content-center align-items-center">
-        <Link to="/wedding-gallery" className="theme-btn-s4">
+        <Link to="/school-gallery" className="theme-btn-s4">
           View Gallery
         </Link>
       </div>

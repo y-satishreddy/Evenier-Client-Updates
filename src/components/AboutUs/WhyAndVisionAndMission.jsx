@@ -24,7 +24,8 @@ const AboutSection = () => {
   }, []);
 
   return (
-    <section className="wpo-about-section section-padding-60">
+    <section className="wpo-about-section">
+      <br />
       <div className="container">
         <div className="wpo-about-wrap">
           <div className="row" ref={aboutRef}>

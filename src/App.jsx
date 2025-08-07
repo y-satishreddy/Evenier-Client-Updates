@@ -1,4 +1,6 @@
 import { Routes, Route } from "react-router-dom";
+import { useEffect, useState } from "react";
+
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
@@ -14,13 +16,30 @@ import Enquiry from "./Pages/Enquiry";
 import ScrollToTop from "./components/ScrollToTop";
 import PrivacyAndPolicy from "./pages/PrivacyAndPolicy";
 import FaArrow from "./components/FaArrow/FaArrow";
-import "./App.css";
 import ErrorPage from "./components/ErrorPage";
+import Loader from "./components/Loader/Loader"; // ⬅️ Import Loader
+import "./App.css";
+import CorporateGallery from "./pages/CorporateGallery";
+import SchoolGallery from "./pages/SchoolGallery";
 function App() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 1500); // Loader stays for 2 seconds
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (loading) {
+    return <Loader />;
+  }
+
   return (
     <>
       <Imports />
       <ScrollToTop />
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
@@ -30,10 +49,12 @@ function App() {
         <Route path="/school-events" element={<SchoolEvents />} />
         <Route path="/corporate-events" element={<CorporateEvents />} />
         <Route path="/wedding-gallery" element={<WeddingGallery />} />
+        <Route path="/corporate-gallery" element={<CorporateGallery />} />
+        <Route path="school-gallery" element={<SchoolGallery />} />
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/enquiry" element={<Enquiry />} />
         <Route path="/privacy-policy" element={<PrivacyAndPolicy />} />
-        <Route path="/404" element={<ErrorPage />}></Route>
+        <Route path="/404" element={<ErrorPage />} />
       </Routes>
       <FaArrow />
       <Footer />

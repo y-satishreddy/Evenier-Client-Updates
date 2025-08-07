@@ -2,8 +2,8 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-import contactImg1 from "../../../assets/images/contact/img-1.jpg";
-import contactImg2 from "../../../assets/images/contact/img-2.jpg";
+import contactImg1 from "../../../assets/images/home-form/left.jpg";
+import contactImg2 from "../../../assets/images/home-form/right.jpg";
 import vector1 from "../../../assets/images/contact/1.png";
 import vector2 from "../../../assets/images/contact/2.png";
 

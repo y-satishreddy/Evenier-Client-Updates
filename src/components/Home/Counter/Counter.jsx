@@ -53,7 +53,7 @@ const Counter = () => {
   const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.3 });
 
   return (
-    <section ref={ref} className="wpo-fun-fact-section section-padding-60">
+    <section ref={ref} className="wpo-fun-fact-section section-padding-60 pt-0">
       <div className="container">
         <div className="row">
           <div className="col col-xs-12">

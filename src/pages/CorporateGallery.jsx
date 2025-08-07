@@ -1,6 +1,6 @@
 import React from "react";
-import Banner from "../components/SchoolGallery/Banner";
-import Gallery from "../components/SchoolGallery/Gallery";
+import Banner from "../components/CorporateGallery/Banner";
+import Gallery from "../components/CorporateGallery/Gallery";
 import Header from "../components/Header/Header";
 import Imports from "../components/Imports/Imports";
 const WeddingGallery = () => {

@@ -53,7 +53,7 @@ const ServiceDetails = () => {
                   data-aos="fade-up"
                   data-aos-delay="0"
                 >
-                  <div className="process-icon w-15">
+                  <div className="process-icon w-15 h-40 h-45">
                     <img
                       src={ThemeAndDesign}
                       alt="Theme & Design"
@@ -76,7 +76,7 @@ const ServiceDetails = () => {
                   data-aos="fade-up"
                   data-aos-delay="100"
                 >
-                  <div className="process-icon">
+                  <div className="process-icon h-40 h-45">
                     <img
                       src={VenuePlanning}
                       alt="Venue Planning"
@@ -99,7 +99,7 @@ const ServiceDetails = () => {
                   data-aos="fade-up"
                   data-aos-delay="200"
                 >
-                  <div className="process-icon">
+                  <div className="process-icon h-40 h-45">
                     <img
                       src={BudgetStructuring}
                       alt="Budget Structuring"
@@ -122,7 +122,7 @@ const ServiceDetails = () => {
                   data-aos="fade-up"
                   data-aos-delay="300"
                 >
-                  <div className="process-icon">
+                  <div className="process-icon h-40 h-45">
                     <img
                       src={DreamyDecor}
                       alt="Dreamy Decor"
@@ -147,7 +147,7 @@ const ServiceDetails = () => {
                   data-aos="fade-up"
                   data-aos-delay="400"
                 >
-                  <div className="process-icon">
+                  <div className="process-icon h-40 h-45">
                     <img
                       src={GourmentCatering}
                       alt="Gourmet Catering"
@@ -170,7 +170,7 @@ const ServiceDetails = () => {
                   data-aos="fade-up"
                   data-aos-delay="500"
                 >
-                  <div className="process-icon">
+                  <div className="process-icon h-40 h-45">
                     <img
                       src={GuestManagement}
                       alt="Guest Management"
@@ -193,7 +193,7 @@ const ServiceDetails = () => {
                   data-aos="fade-up"
                   data-aos-delay="600"
                 >
-                  <div className="process-icon">
+                  <div className="process-icon h-40 h-45">
                     <img
                       src={TravelAndTransportArrangements}
                       alt="Travel & Transport"
@@ -216,7 +216,7 @@ const ServiceDetails = () => {
                   data-aos="fade-up"
                   data-aos-delay="700"
                 >
-                  <div className="process-icon">
+                  <div className="process-icon h-40 h-45">
                     <img
                       src={PhotographyAndCinematography}
                       alt="Photography"
@@ -239,7 +239,7 @@ const ServiceDetails = () => {
                   data-aos="fade-up"
                   data-aos-delay="800"
                 >
-                  <div className="process-icon">
+                  <div className="process-icon h-40 h-45">
                     <img
                       src={MakeupMehendiAndLiveActs}
                       alt="Makeup & Mehendi"
@@ -265,7 +265,7 @@ const ServiceDetails = () => {
                   data-aos="fade-up"
                   data-aos-delay="900"
                 >
-                  <div className="process-icon">
+                  <div className="process-icon h-40 h-45">
                     <img
                       src={VenueTieupsHallsResortAndHotels}
                       alt="Venue Tie-ups"
@@ -288,7 +288,7 @@ const ServiceDetails = () => {
                   data-aos="fade-up"
                   data-aos-delay="1000"
                 >
-                  <div className="process-icon">
+                  <div className="process-icon h-40 h-45">
                     <img
                       src={CustomEinvitesAndPrintInvites}
                       alt="Custom Invites"
@@ -311,7 +311,7 @@ const ServiceDetails = () => {
                   data-aos="fade-up"
                   data-aos-delay="1100"
                 >
-                  <div className="process-icon">
+                  <div className="process-icon h-40 h-45">
                     <img
                       src={PersonalisedWeddingWebsites}
                       alt="Wedding Websites"

@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
-import slide1 from "../../../assets/images/slider/slide-1.jpg";
-import slide2 from "../../../assets/images/slider/slide-2.jpg";
-import slide3 from "../../../assets/images/slider/slide-3.jpg";
-import slide4 from "../../../assets/images/slider/slide-4.jpg";
+import slide1 from "../../../assets/images/banner/slider-19.jpg";
+import slide2 from "../../../assets/images/banner/slider-20.jpg";
+import slide3 from "../../../assets/images/banner/slider-21.jpg";
+import slide4 from "../../../assets/images/banner/slider-22.jpg";
 import Imports from "../../Imports/Imports";
 import "./banner.css";
 
@@ -73,11 +73,11 @@ const Banner = () => {
           <h2
             data-aos="fade-up"
             data-aos-duration="1000"
-            className="gilroy-font"
+            className="gilroy-font text-white"
           >
             Planning Your Everlasting Memories
           </h2>
-          <p data-aos="fade-up" data-aos-duration="1800">
+          <p data-aos="fade-up" data-aos-duration="1800" className="text-white">
             Let’s Make Your Day Memorable. Your Successful Wedding is Our Job.
           </p>
         </div>

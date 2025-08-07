@@ -726,7 +726,7 @@ a.ui-button:active,
 .theme-btn-s4:hover,
 .theme-btn-s4:focus,
 .theme-btn-s4:active {
-  background: #942780;
+  background: #c95433;
   color: #fff;
 }
 
@@ -5326,9 +5326,9 @@ wpo-hero-slider-s4
 .wpo-hero-style-2 .wedding-announcement .couple-text h2 {
   font-weight: 400;
   font-size: 70px;
-  line-height: 100px;
+  /* line-height: 100px; */
   text-align: center;
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
 }
 
 @media (max-width: 1500px) {
@@ -5340,7 +5340,7 @@ wpo-hero-slider-s4
 @media (max-width: 1399px) {
   .wpo-hero-style-2 .wedding-announcement .couple-text h2 {
     font-size: 50px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
   }
 }
 
@@ -5361,7 +5361,7 @@ wpo-hero-slider-s4
 @media (max-width: 767px) {
   .wpo-hero-style-2 .wedding-announcement .couple-text h2 {
     font-size: 25px;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
   }
 }
 
@@ -18768,4 +18768,19 @@ a.knowmore:hover {
 }
 .w-10 {
   width: 10%;
+}
+.text-white {
+  color: white;
+}
+.h-40 {
+  height: 40% !important;
+}
+
+@media (min-width: 1600px) {
+  .h-45 {
+    height: 45% !important;
+  }
+}
+.pt-0 {
+  padding-top: 0 !important;
 }

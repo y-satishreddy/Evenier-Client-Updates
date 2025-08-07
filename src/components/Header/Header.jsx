@@ -221,10 +221,10 @@ const Header = () => {
                             <Link to="/wedding-gallery">Wedding</Link>
                           </li>
                           <li>
-                            <Link to="/wedding-gallery">School</Link>
+                            <Link to="/corporate-gallery">Corporate</Link>
                           </li>
                           <li>
-                            <Link to="/wedding-gallery">Corporate</Link>
+                            <Link to="/school-gallery">School</Link>
                           </li>
                         </ul>
                       </li>

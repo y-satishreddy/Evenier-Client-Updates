@@ -8,7 +8,8 @@ import OnlineStreamingCapabilities from "../../assets/icons/corporate/svgs/Onlin
 import ScreenSetupAndSpeakerSystems from "../../assets/icons/corporate/svgs/ScreenSetupAndSpeakerSystems.svg";
 import VenueSourcing from "../../assets/icons/corporate/svgs/VenueSourcing.svg";
 import VideoAndPhotoCoverage from "../../assets/icons/corporate/svgs/VideoAndPhotoCoverage.svg";
-
+import BrandingCustomTheming from "../../assets/icons/corporate/svgs/BrandingCustomTheming.svg";
+import ScheduleItineraryPlanning from "../../assets/icons/corporate/svgs/ScheduleItineraryPlanning.svg";
 const ServiceDetailsSection = () => {
   useEffect(() => {
     AOS.init({
@@ -170,7 +171,7 @@ const ServiceDetailsSection = () => {
                 >
                   <div className="process-icon">
                     <img
-                      src={VideoAndPhotoCoverage}
+                      src={ScheduleItineraryPlanning}
                       alt="Schedule & Itinerary Planning"
                       className="new-icons w-15"
                     />
@@ -194,7 +195,7 @@ const ServiceDetailsSection = () => {
                 >
                   <div className="process-icon">
                     <img
-                      src={VideoAndPhotoCoverage}
+                      src={BrandingCustomTheming}
                       alt="Branding & Custom Theming"
                       className="new-icons w-15"
                     />
