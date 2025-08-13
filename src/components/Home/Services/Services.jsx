@@ -12,7 +12,10 @@ const ServicesSection = () => {
   }, []);
 
   return (
-    <section className="wpo-Service-section section-padding-60" id="Service">
+    <section
+      className="wpo-Service-section section-padding-60 bg-theme-home"
+      id="Service"
+    >
       <div className="container">
         <div className="wpo-section-title">
           <h4>Our Services</h4>
@@ -31,7 +34,7 @@ const ServicesSection = () => {
                   <img src={serviceImg1} alt="Wedding Events" />
                 </div>
                 <div className="wpo-Service-text">
-                  <Link to="/weddingEvents">Wedding Events</Link>
+                  <Link to="/wedding-events">Wedding Events</Link>
                 </div>
               </div>
             </div>
@@ -48,7 +51,7 @@ const ServicesSection = () => {
                   <img src={serviceImg2} alt="Corporate Events" />
                 </div>
                 <div className="wpo-Service-text">
-                  <Link to="/corporateEvents">Corporate Events</Link>
+                  <Link to="/corporate-events">Corporate Events</Link>
                 </div>
               </div>
             </div>
@@ -65,7 +68,7 @@ const ServicesSection = () => {
                   <img src={serviceImg3} alt="School Events" />
                 </div>
                 <div className="wpo-Service-text">
-                  <Link to="/schoolEvents">School Events</Link>
+                  <Link to="/school-events">School Events</Link>
                 </div>
               </div>
             </div>

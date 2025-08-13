@@ -15,11 +15,11 @@ const WelcomeSection = () => {
             School Gallery
           </h2>
           <p>
-            At Evenire, we do more than organise events. We create experiences
-            that reflect who you are and what you imagine. Whether it is a
-            quiet, intimate wedding or a grand celebration filled with hundreds
-            of guests, we approach each occasion with thoughtfulness,
-            creativity, and a commitment to excellence.
+            From annual days to concerts, Evenire handles large-scale school
+            events with care and precision. Our planning is child-safe,
+            crowd-friendly, and designed to manage up to 3000 attendees with
+            ease and efficiency. Every event is vibrant, well-organised, and
+            memorable for students, staff, and parents alike.
           </p>
         </div>
       </div>

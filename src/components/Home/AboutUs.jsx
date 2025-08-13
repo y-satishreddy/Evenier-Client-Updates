@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-
+import { Link } from "react-router-dom";
 const AboutSection = () => {
   useEffect(() => {
     AOS.init({ duration: 1500, once: true });
@@ -13,12 +13,8 @@ const AboutSection = () => {
         <div className="wpo-section-title no-margin-bottom no-lines responsive-section text-center bg-theme-home">
           {/* <h4>About Us</h4> */}
 
-          <h2
-            className="mb-3 text-dark"
-            data-aos="zoom-in"
-            data-aos-duration="1000"
-          >
-            Welcome To Evenire <br />
+          <h2 className="text-dark" data-aos="zoom-in" data-aos-duration="1000">
+            Welcome To Evenire, <br />
             For All Your Exceptional Events
           </h2>
 
@@ -32,13 +28,13 @@ const AboutSection = () => {
             creativity, and a commitment to excellence.
           </p>
 
-          <a
-            href="/about-us"
+          <Link
+            to="/about-us"
             title="Know More"
             className="knowmore d-inline-block mt-3"
           >
             Know More
-          </a>
+          </Link>
         </div>
       </div>
     </section>

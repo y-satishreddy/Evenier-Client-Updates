@@ -15,11 +15,11 @@ const WelcomeSection = () => {
             Corporate Gallery
           </h2>
           <p>
-            At Evenire, we do more than organise events. We create experiences
-            that reflect who you are and what you imagine. Whether it is a
-            quiet, intimate wedding or a grand celebration filled with hundreds
-            of guests, we approach each occasion with thoughtfulness,
-            creativity, and a commitment to excellence.
+            From leadership summits to product launches, Evenire creates
+            immersive corporate experiences that align with your brand and
+            purpose. We manage events for 300 to 1000+ guests with seamless
+            flow, impactful setups, and flawless execution, leaving a lasting
+            impression on every attendee.
           </p>
         </div>
       </div>

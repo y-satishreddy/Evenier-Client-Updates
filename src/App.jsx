@@ -1,7 +1,5 @@
 import { Routes, Route } from "react-router-dom";
 import { useEffect, useState } from "react";
-
-import Header from "./components/Header/Header";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import AboutUs from "./pages/AboutUs";
@@ -21,6 +19,7 @@ import Loader from "./components/Loader/Loader"; // ⬅️ Import Loader
 import "./App.css";
 import CorporateGallery from "./pages/CorporateGallery";
 import SchoolGallery from "./pages/SchoolGallery";
+import TermsAndConditions from "./pages/TermsAndConditions";
 function App() {
   const [loading, setLoading] = useState(true);
 
@@ -39,7 +38,6 @@ function App() {
     <>
       <Imports />
       <ScrollToTop />
-
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
@@ -55,6 +53,7 @@ function App() {
         <Route path="/enquiry" element={<Enquiry />} />
         <Route path="/privacy-policy" element={<PrivacyAndPolicy />} />
         <Route path="/404" element={<ErrorPage />} />
+        <Route path="/terms-conditions" element={<TermsAndConditions />} />
       </Routes>
       <FaArrow />
       <Footer />

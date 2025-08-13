@@ -12,14 +12,12 @@ const WelcomeSection = () => {
       <div className="container">
         <div className="wpo-section-title no-margin-bottom no-lines text-start p-3">
           <h2 className="text-capitalize" data-aos="zoom-in">
-            Welcome To Evenire
+            Contact Us
           </h2>
           <p>
-            At Evenire, we do more than organise events. We create experiences
-            that reflect who you are and what you imagine. Whether it is a
-            quiet, intimate wedding or a grand celebration filled with hundreds
-            of guests, we approach each occasion with thoughtfulness,
-            creativity, and a commitment to excellence.
+            Whether you have questions, feedback, or want to learn more about
+            Evenire, feel free to reach out. Our team is ready to assist you and
+            ensure you have the best experience with us.
           </p>
         </div>
       </div>

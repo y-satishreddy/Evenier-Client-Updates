@@ -18705,7 +18705,7 @@ a.knowmore:hover {
 /**********custom code ***/
 /*---------------------------------------------------------------*/
 .bg-theme-home {
-  background-color: rgb(247, 247, 247);
+  background-color: rgb(255, 255, 255);
 }
 .bg-theme {
   background: #942780;
@@ -18783,4 +18783,21 @@ a.knowmore:hover {
 }
 .pt-0 {
   padding-top: 0 !important;
+}
+.custom-list-styles {
+  list-style: disc !important;
+  padding-left: 1.5rem;
+  padding-top: 1rem;
+}
+.text-justify {
+  text-align: justify !important;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.padding-10 {
+  padding-top: 10px;
+}
+.color-hover-effect:hover {
+  color: #942780 !important;
 }

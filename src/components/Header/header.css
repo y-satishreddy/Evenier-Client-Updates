@@ -37,7 +37,7 @@
 }
 
 .hide-header {
-  top: -100px;
+  /* top: -100px; */
   transition: top 0.3s ease;
 }
 

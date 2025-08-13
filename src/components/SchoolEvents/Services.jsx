@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useInView } from "react-intersection-observer";
-
 import StageSetupImg from "../../assets/icons/school/svgs/StageSetup.svg";
 import BarricadesEntryImg from "../../assets/icons/school/svgs/BarricadesAndEntryManagement.svg";
 import AvLightingImg from "../../assets/icons/school/svgs/AVAndLightingSolutions.svg";

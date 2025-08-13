@@ -72,8 +72,14 @@ const Footer = () => {
               <div className="copyright">
                 <p>
                   © Copyright 2025 | Evenire |{" "}
-                  <Link to="/privacy-policy">Privacy &amp; Policy</Link> | All
-                  right reserved.
+                  <Link to="/privacy-policy" className="color-hover-effect">
+                    Privacy Policy
+                  </Link>{" "}
+                  |{" "}
+                  <Link to="/terms-conditions" className="color-hover-effect">
+                    Terms &amp; Conditions |{" "}
+                  </Link>
+                  All right reserved.
                 </p>
               </div>
             </div>

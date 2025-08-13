@@ -13,7 +13,7 @@ const ContactSection = () => {
   }, []);
 
   return (
-    <section className="wpo-contact-section section-padding-60">
+    <section className="wpo-contact-section section-padding-60 pb-0">
       <div className="container-fluid">
         <div className="row align-items-center">
           {/* Left Image */}

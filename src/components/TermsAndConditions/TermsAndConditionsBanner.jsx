@@ -16,9 +16,9 @@ const PrivacyAndPolicy = () => {
             data-aos="zoom-in"
             data-aos-duration="1000"
           >
-            Privacy Policy
+            Terms & Conditions
           </h2>
-          {/* <p>Dated: 25-07-2025</p> */}
+
           <p>Dated: 13-08-2025</p>
         </div>
       </div>
