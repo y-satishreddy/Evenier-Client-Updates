@@ -20,7 +20,7 @@ const Collaborators = () => {
   return (
     <section className="wpo-partners-section section-padding-60">
       <div class="wpo-section-title text-dark">
-        <h2 className="text-dark">Collaborators</h2>
+        <h2 className="text-dark gilroy-font">Collaborators</h2>
       </div>
       <div className="container">
         <div className="row">

@@ -20,6 +20,7 @@ import "./App.css";
 import CorporateGallery from "./pages/CorporateGallery";
 import SchoolGallery from "./pages/SchoolGallery";
 import TermsAndConditions from "./pages/TermsAndConditions";
+import Careers from "./pages/Careers";
 function App() {
   const [loading, setLoading] = useState(true);
 
@@ -54,6 +55,7 @@ function App() {
         <Route path="/privacy-policy" element={<PrivacyAndPolicy />} />
         <Route path="/404" element={<ErrorPage />} />
         <Route path="/terms-conditions" element={<TermsAndConditions />} />
+        <Route path="/career" element={<Careers />}></Route>
       </Routes>
       <FaArrow />
       <Footer />

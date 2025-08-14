@@ -18801,3 +18801,24 @@ a.knowmore:hover {
 .color-hover-effect:hover {
   color: #942780 !important;
 }
+.btn-style {
+  background-color: #942780 !important;
+  color: white !important;
+}
+.btn-style:hover {
+  background-color: #c95433 !important;
+}
+/* Default color for empty inputs/selects */
+.form-control {
+  color: gray;
+}
+
+/* After user fills/selects a value */
+.form-control.filled {
+  color: black !important;
+}
+
+/* Ensure placeholder text is gray */
+.form-control::placeholder {
+  color: gray;
+}

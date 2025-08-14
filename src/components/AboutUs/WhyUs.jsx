@@ -38,14 +38,22 @@ const WhyChooseUs = () => {
                 data-aos-duration="1600"
               >
                 <div>
-                  <h4>Why Choose Evenire?</h4>
+                  <h4 className="gilroy-font">Why Choose Evenire?</h4>
                   <ul className="ml-25">
-                    <li>15+ Years of Experience</li>
-                    <li>10,000+ Decor Projects Completed</li>
-                    <li>30+ Full-time Professionals</li>
-                    <li>Full-scale End-to-End Execution</li>
-                    <li>Detailed and Driven by Passion</li>
-                    <li>Strategic Partnerships with Venues</li>
+                    <li className="gilroy-font">15+ Years of Experience</li>
+                    <li className="gilroy-font">
+                      10,000+ Decor Projects Completed
+                    </li>
+                    <li className="gilroy-font">30+ Full-time Professionals</li>
+                    <li className="gilroy-font">
+                      Full-scale End-to-End Execution
+                    </li>
+                    <li className="gilroy-font">
+                      Detailed and Driven by Passion
+                    </li>
+                    <li className="gilroy-font">
+                      Strategic Partnerships with Venues
+                    </li>
                   </ul>
                 </div>
               </div>

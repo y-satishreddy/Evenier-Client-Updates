@@ -18,8 +18,8 @@ const ServicesSection = () => {
     >
       <div className="container">
         <div className="wpo-section-title">
-          <h4>Our Services</h4>
-          <h2 className="text-dark">WHAT WE OFFER FOR YOU</h2>
+          {/* <h4>Our Services</h4> */}
+          <h2 className="text-dark gilroy-font">Our Services</h2>
         </div>
         <div className="wpo-Service-wrap">
           <div className="row">
@@ -34,7 +34,9 @@ const ServicesSection = () => {
                   <img src={serviceImg1} alt="Wedding Events" />
                 </div>
                 <div className="wpo-Service-text">
-                  <Link to="/wedding-events">Wedding Events</Link>
+                  <Link to="/wedding-events" className="gilroy-font">
+                    Wedding Events
+                  </Link>
                 </div>
               </div>
             </div>
@@ -51,7 +53,9 @@ const ServicesSection = () => {
                   <img src={serviceImg2} alt="Corporate Events" />
                 </div>
                 <div className="wpo-Service-text">
-                  <Link to="/corporate-events">Corporate Events</Link>
+                  <Link to="/corporate-events" className="gilroy-font">
+                    Corporate Events
+                  </Link>
                 </div>
               </div>
             </div>
@@ -68,7 +72,9 @@ const ServicesSection = () => {
                   <img src={serviceImg3} alt="School Events" />
                 </div>
                 <div className="wpo-Service-text">
-                  <Link to="/school-events">School Events</Link>
+                  <Link to="/school-events" className="gilroy-font">
+                    School Events
+                  </Link>
                 </div>
               </div>
             </div>

@@ -12,9 +12,10 @@ const WelcomeSection = () => {
       <div className="container">
         <div className="wpo-section-title no-margin-bottom no-lines text-start p-3">
           <h2 className="text-capitalize" data-aos="zoom-in">
-            About Us
+            Preserving the joy, beauty, and meaning of your most special
+            occasions
           </h2>
-          <p>
+          <p className="gilroy-font">
             At Evenire, we do more than organise events. We create experiences
             that reflect who you are and what you imagine. Whether it is a
             quiet, intimate wedding or a grand celebration filled with hundreds

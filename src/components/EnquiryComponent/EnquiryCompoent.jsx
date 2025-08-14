@@ -5,6 +5,9 @@ const ContactSection = () => {
     name: "",
     email: "",
     service: "",
+    budget: "",
+    eventLocation: "",
+    eventDate: "",
     message: "",
   });
 
@@ -17,21 +20,37 @@ const ContactSection = () => {
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
+
+    // Dynamically toggle filled class
+    if (value) {
+      e.target.classList.add("filled");
+    } else {
+      e.target.classList.remove("filled");
+    }
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
-    // Simulate submission
     setStatus({ loading: true, success: null, error: null });
 
     setTimeout(() => {
-      // Simulate success
       setStatus({ loading: false, success: "Thank you", error: null });
-      // Reset form
-      setFormData({ name: "", email: "", service: "", message: "" });
+      setFormData({
+        name: "",
+        email: "",
+        service: "",
+        budget: "",
+        eventLocation: "",
+        eventDate: "",
+        message: "",
+      });
+      document
+        .querySelectorAll(".form-control")
+        .forEach((el) => el.classList.remove("filled")); // Reset colors
     }, 1500);
   };
+
+  const today = new Date().toISOString().split("T")[0];
 
   return (
     <section className="wpo-contact-section-s5 section-padding" id="rsvp">
@@ -42,7 +61,7 @@ const ContactSection = () => {
               <div className="wpo-contact-section-inner">
                 <div className="wpo-contact-form-area">
                   <div className="wpo-section-title">
-                    <h4>Loreim Ipsum</h4>
+                    <h4 className="gilroy-font">Have a question?</h4>
                   </div>
                   <form onSubmit={handleSubmit} id="contact-form-main">
                     <div>
@@ -56,6 +75,7 @@ const ContactSection = () => {
                         required
                       />
                     </div>
+
                     <div>
                       <input
                         type="email"
@@ -67,10 +87,29 @@ const ContactSection = () => {
                         required
                       />
                     </div>
+
+                    <div>
+                      <select
+                        name="budget"
+                        className="form-control"
+                        value={formData.budget}
+                        onChange={handleChange}
+                        required
+                      >
+                        <option value="" disabled>
+                          Select Budget
+                        </option>
+                        <option>Below ₹50,000</option>
+                        <option>₹50,000 - ₹1,00,000</option>
+                        <option>₹1,00,000 - ₹2,00,000</option>
+                        <option>Above ₹2,00,000</option>
+                      </select>
+                    </div>
+
                     <div>
                       <select
                         name="service"
-                        className="form-control last"
+                        className="form-control"
                         value={formData.service}
                         onChange={handleChange}
                         required
@@ -84,6 +123,38 @@ const ContactSection = () => {
                         <option>Other</option>
                       </select>
                     </div>
+
+                    <div>
+                      <input
+                        type="text"
+                        className="form-control"
+                        name="eventLocation"
+                        value={formData.eventLocation}
+                        onChange={handleChange}
+                        placeholder="Event Location"
+                        required
+                      />
+                    </div>
+
+                    <div>
+                      <input
+                        type="date"
+                        className="form-control"
+                        name="eventDate"
+                        value={formData.eventDate}
+                        onChange={handleChange}
+                        min={today}
+                        onKeyDown={(e) => e.preventDefault()}
+                        onClick={(e) => e.target.showPicker?.()}
+                        style={{
+                          outline: "none",
+                          backgroundColor: "transparent",
+                          boxShadow: "none",
+                        }}
+                        required
+                      />
+                    </div>
+
                     <div>
                       <input
                         type="text"
@@ -95,10 +166,11 @@ const ContactSection = () => {
                         required
                       />
                     </div>
+
                     <div className="submit-area">
                       <button
                         type="submit"
-                        className="theme-btn"
+                        className="theme-btn-s3 btn-style"
                         disabled={status.loading}
                       >
                         Submit
@@ -109,6 +181,7 @@ const ContactSection = () => {
                         </div>
                       )}
                     </div>
+
                     <div className="clearfix error-handling-messages">
                       {status.success && (
                         <div id="success">{status.success}</div>

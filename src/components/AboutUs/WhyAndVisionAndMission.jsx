@@ -55,19 +55,19 @@ const AboutSection = () => {
                     Welcome To Evenire <br />
                     All Your Exceptional Events
                   </h4>
-                  <p>
+                  <p className="gilroy-font">
                     We also bring the same passion and care to every kind of
                     gathering, from small-scale private events to large-scale
                     public events.
                   </p>
-                  <p>
+                  <p className="gilroy-font">
                     With over 15 years of experience, a passionate team of 30+
                     professionals, and more than 10,000 decor stories behind us,
                     we have learned that great events do not happen by chance,
                     they occur when every single detail is given the care it
                     deserves.
                   </p>
-                  <p>
+                  <p className="gilroy-font">
                     We never settle for ‘good enough’. We give you our full
                     energy, our complete attention, and our very best, from the
                     first conversation to the final applause.

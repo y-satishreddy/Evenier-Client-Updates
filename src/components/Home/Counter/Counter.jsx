@@ -61,17 +61,43 @@ const Counter = () => {
               {inView && (
                 <>
                   <CounterItem
-                    end={1360}
-                    label="Happy Clients"
-                    imageSrc={funImg1}
-                  />
-                  <CounterItem
-                    end={503}
-                    label="Decoration"
+                    end={10000}
+                    label={
+                      <>
+                        Decor Projects <br /> Completed
+                      </>
+                    }
                     imageSrc={funImg2}
                   />
-                  <CounterItem end={1530} label="Wedding" imageSrc={funImg3} />
-                  <CounterItem end={306} label="Events" />
+
+                  <CounterItem
+                    end={15}
+                    label={
+                      <>
+                        Years of <br /> Experience
+                      </>
+                    }
+                    imageSrc={funImg1}
+                  />
+
+                  <CounterItem
+                    end={5000}
+                    label={
+                      <>
+                        Happy <br />
+                        clients
+                      </>
+                    }
+                    imageSrc={funImg3}
+                  />
+                  <CounterItem
+                    end={30}
+                    label={
+                      <>
+                        Full-time <br /> Professionals
+                      </>
+                    }
+                  />
                 </>
               )}
             </div>

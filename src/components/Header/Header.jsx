@@ -232,7 +232,7 @@ const Header = () => {
                         <Link to="/contact">Contact</Link>
                       </li>
                       <li>
-                        <Link to="/enquiry">Enquiry Now</Link>
+                        <Link to="/enquiry">Enquire Now</Link>
                       </li>
                     </ul>
                   </div>

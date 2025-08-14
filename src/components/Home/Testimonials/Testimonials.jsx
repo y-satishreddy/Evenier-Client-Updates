@@ -7,7 +7,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "aos/dist/aos.css";
 import AOS from "aos";
-import "./testimonials.css";
 
 const TestimonialSlider = () => {
   const [nav1, setNav1] = useState(null);
@@ -47,7 +46,7 @@ const TestimonialSlider = () => {
   return (
     <section className="wpo-testimonial-section section-padding-60 pt-0">
       <div className="wpo-section-title">
-        <h2 className="text-dark">Testimonials</h2>
+        <h2 className="text-dark gilroy-font">Testimonials</h2>
       </div>
       <div className="container">
         <div
@@ -95,7 +94,7 @@ const TestimonialSlider = () => {
                   <div className="wpo-testimonial-item">
                     <div className="wpo-testimonial-text">
                       <i className="fi flaticon-quotation"></i>
-                      <p>
+                      <p className="gilroy-font">
                         Varius aenean fringilla consectetur adipiscing felis,
                         lectus. Id eros, porta quam quis proin non vulputate
                         lacinia imperdiet. Mus ut amet tortor iEros, sed at
@@ -111,7 +110,7 @@ const TestimonialSlider = () => {
                   <div className="wpo-testimonial-item">
                     <div className="wpo-testimonial-text">
                       <i className="fi flaticon-quotation"></i>
-                      <p>
+                      <p className="gilroy-font">
                         Varius aenean fringilla consectetur adipiscing felis,
                         lectus. Id eros, porta quam quis proin non vulputate
                         lacinia imperdiet. Mus ut amet tortor iEros, sed at
@@ -127,7 +126,7 @@ const TestimonialSlider = () => {
                   <div className="wpo-testimonial-item">
                     <div className="wpo-testimonial-text">
                       <i className="fi flaticon-quotation"></i>
-                      <p>
+                      <p className="gilroy-font">
                         Varius aenean fringilla consectetur adipiscing felis,
                         lectus. Id eros, porta quam quis proin non vulputate
                         lacinia imperdiet. Mus ut amet tortor iEros, sed at
