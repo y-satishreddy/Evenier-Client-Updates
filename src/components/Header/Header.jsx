@@ -151,7 +151,7 @@ const Header = () => {
 
                 {/* Call icon */}
                 <div className="col-3 d-lg-none text-end">
-                  <a href="tel:9199223442" className="social-info">
+                  <a href="tel:9199223442" className="social-info-call">
                     <i className="fa fa-phone" aria-hidden="true"></i>
                   </a>
                 </div>

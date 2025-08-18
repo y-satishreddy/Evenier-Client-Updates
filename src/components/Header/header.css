@@ -87,3 +87,8 @@
 .navbar-brand {
   margin-right: 0 !important;
 }
+@media (max-width: 768px) {
+  .social-info-call i {
+    font-size: 24px !important; /* default for mobile */
+  }
+}

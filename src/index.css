@@ -9,3 +9,8 @@ html {
 .main-navbar {
   font-family: "Jost", sans-serif !important;
 }
+@media (max-width: 768px) {
+  .social-info-call i {
+    font-size: 20px !important; /* default for mobile */
+  }
+}

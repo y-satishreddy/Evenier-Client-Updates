@@ -40,12 +40,16 @@ const AboutSection = () => {
       {/* About Section */}
       <section className="wpo-about-section section-padding-60 pb-0">
         <div className="container">
-          <div className="wpo-about-wrap">
+          <div className="wpo-about-wrap " loading="eager">
             <div className="row align-items-center" ref={aboutRef}>
-              <div className="col-lg-6 col-md-12 col-12" data-aos="fade-left">
+              <div
+                className="col-lg-6 col-md-12 col-12"
+                data-aos="fade-left"
+                loading="eager"
+              >
                 <div className="wpo-about-item">
-                  <div className="wpo-about-img">
-                    <img src={aboutImg} alt="about" />
+                  <div className="wpo-about-img" loading="eager">
+                    <img src={aboutImg} alt="about" loading="eager" />
                   </div>
                 </div>
               </div>

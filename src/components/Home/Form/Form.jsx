@@ -80,7 +80,7 @@ const ContactSection = () => {
             <div className="wpo-contact-section-wrapper">
               <div className="wpo-contact-form-area" data-aos="zoom-in">
                 <div className="wpo-section-title">
-                  <h4>Let’s bring your next event to life</h4>
+                  {/* <h4>Let’s bring your next event to life</h4> */}
                   <h2 className="gilroy-font">Enquire Now</h2>
                 </div>
                 <form onSubmit={handleSubmit} id="contact-form-main">
