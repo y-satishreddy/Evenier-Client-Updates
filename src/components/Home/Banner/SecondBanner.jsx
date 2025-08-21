@@ -1,43 +1,46 @@
-import slide4 from "../../../assets/images/banner/slider-22.jpg";
-import "./banner.css";
+import "./banner.css"; // Import your CSS
 import { Link } from "react-scroll";
-const Banner = () => {
-  return (
-    <div className="banner">
-      {/* Black overlay */}
-      <div className="banner-overlay"></div>
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
-      {/* Text and button */}
-      <div className="banner-content">
-        <h2
-          data-aos="fade-up"
-          data-aos-duration="1000"
-          className="gilroy-font text-white"
-        >
-          Planning Your Everlasting Memories
-        </h2>
-        <p data-aos="fade-up" data-aos-duration="1800" className="text-white">
-          Let’s Make Your Day Memorable. Your Successful Wedding is Our Job.
-        </p>
-        <Link
-          to="formSection"
-          smooth={true}
-          duration={500}
-          offset={-90}
-          spy={true}
-          isDynamic={true}
-        >
-          <button
-            className="theme-btn-s3 btn-style gilroy-font"
+const HeroSection = () => {
+  // Initialize AOS
+  useEffect(() => {
+    AOS.init({ once: true });
+  }, []);
+
+  return (
+    <section className="hero-section">
+      {/* Gradient Overlay */}
+      <div className="hero-overlay"></div>
+
+      {/* Hero Content */}
+      <div className="container hero-content">
+        <div className="row h-100">
+          <div
+            className="col-12 d-flex flex-column justify-content-end text-center pb-5"
             data-aos="fade-up"
-            data-aos-duration="1500"
+            data-aos-duration="1200"
           >
-            Enquiry Now
-          </button>
-        </Link>
+            <h1 className="display-6 mb-3 gilroy-font text-white">
+              Planning Your Everlasting Memories
+            </h1>
+            <p className="fs-6 text-white">
+              We bring your vision to life in ways that last far beyond the day.
+            </p>
+            <div className="mb-4 text-center">
+              <Link to="formSection" smooth={true} duration={500} offset={-70}>
+                <button type="button" className="theme-btn-s5">
+                  Enquire Now
+                </button>
+              </Link>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 
-export default Banner;
+export default HeroSection;

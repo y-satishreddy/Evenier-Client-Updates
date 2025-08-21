@@ -204,9 +204,6 @@ const Header = () => {
                           <li>
                             <Link to="/corporate-events">Corporate</Link>
                           </li>
-                          <li>
-                            <Link to="/school-events">School</Link>
-                          </li>
                         </ul>
                       </li>
                       <li className="brand-logo d-none d-lg-block">
@@ -222,9 +219,6 @@ const Header = () => {
                           </li>
                           <li>
                             <Link to="/corporate-gallery">Corporate</Link>
-                          </li>
-                          <li>
-                            <Link to="/school-gallery">School</Link>
                           </li>
                         </ul>
                       </li>

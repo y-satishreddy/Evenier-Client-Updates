@@ -13,7 +13,7 @@ const ServicesSection = () => {
 
   return (
     <section
-      className="wpo-Service-section section-padding-60 bg-theme-home"
+      className="wpo-Service-section section-padding-60 bg-theme-home pt-0"
       id="Service"
     >
       <div className="container">
@@ -36,7 +36,7 @@ const ServicesSection = () => {
                 </div>
                 <div className="wpo-Service-text">
                   <Link to="/wedding-events" className="gilroy-font">
-                    Wedding Events
+                    Production
                   </Link>
                 </div>
               </div>
@@ -55,7 +55,7 @@ const ServicesSection = () => {
                 </div>
                 <div className="wpo-Service-text">
                   <Link to="/corporate-events" className="gilroy-font">
-                    Corporate Events
+                    Management
                   </Link>
                 </div>
               </div>

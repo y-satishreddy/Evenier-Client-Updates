@@ -8,7 +8,7 @@ import Collaborators from "../components/Home/Collaborators/Collaborators";
 import TestimonialSlider from "../components/Home/Testimonials/Testimonials";
 import Header from "../components/Header/Header";
 import Imports from "../components/Imports/Imports";
-
+import ProductionAndManagment from "../components/Home/ProductionAndManagement/ProductionAndManagement";
 import { Element, scroller } from "react-scroll";
 
 const Home = () => {
@@ -35,6 +35,7 @@ const Home = () => {
 
       <AboutUs />
       <Services />
+      <ProductionAndManagment />
       <Counter />
 
       {/* Target section */}

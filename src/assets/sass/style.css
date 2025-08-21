@@ -153,7 +153,7 @@ body {
   background-color: rgb(247, 247, 247);
 }
 p {
-  font-size: 18px;
+  font-size: 17px;
   color: #848892;
   line-height: 1.5em;
 }
@@ -574,8 +574,8 @@ a.ui-button:active,
 .wpo-section-title h2,
 .wpo-section-title-s2 h2 {
   font-weight: 400;
-  font-size: 40px;
-  line-height: 58px;
+  font-size: 30px;
+  line-height: 45px;
   margin: 0;
   position: relative;
   font-family: "gilroy", sans-serif;
@@ -621,22 +621,22 @@ a.ui-button:active,
 @media (max-width: 767px) {
   .wpo-section-title h2,
   .wpo-section-title-s2 h2 {
-    font-size: 32px;
-    line-height: 40px;
+    font-size: 30px;
+    line-height: 38px;
   }
 }
 
 @media (max-width: 575px) {
   .wpo-section-title h2,
   .wpo-section-title-s2 h2 {
-    font-size: 22px;
+    font-size: 20px;
     margin-top: 0;
   }
 }
 
 .wpo-section-title p,
 .wpo-section-title-s2 p {
-  font-size: 18px;
+  font-size: 17px;
   color: white;
 }
 
@@ -18821,4 +18821,13 @@ a.knowmore:hover {
 /* Ensure placeholder text is gray */
 .form-control::placeholder {
   color: gray;
+}
+.theme-btn-s5 {
+  background: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 8px 10px;
+}
+.text-black {
+  color: #000 !important;
 }
