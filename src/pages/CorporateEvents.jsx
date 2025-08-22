@@ -3,7 +3,7 @@ import Banner from "../components/CorporateEvents/Banner";
 import Services from "../components/CorporateEvents/Services";
 import Video from "../components/CorporateEvents/Video";
 import Header from "../components/Header/Header";
-import Imports from "../components/Imports/Imports";
+import Imports from "../components/Imports";
 const CorporateEvents = () => {
   return (
     <>

@@ -3,7 +3,7 @@ import Banner from "../components/SchoolEvents/Banner";
 import Services from "../components/SchoolEvents/Services";
 import Video from "../components/SchoolEvents/Video";
 import Header from "../components/Header/Header";
-import Imports from "../components/Imports/Imports";
+import Imports from "../components/Imports";
 const SchoolEvents = () => {
   return (
     <>

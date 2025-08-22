@@ -3,7 +3,7 @@ import Banner from "../components/WeddingEvents/Banner";
 import Services from "../components/WeddingEvents/Services";
 import Video from "../components/WeddingEvents/Video";
 import Header from "../components/Header/Header";
-import Imports from "../components/Imports/Imports";
+import Imports from "../components/Imports";
 const WeddingEvents = () => {
   return (
     <>

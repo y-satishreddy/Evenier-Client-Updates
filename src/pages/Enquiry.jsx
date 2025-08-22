@@ -1,7 +1,7 @@
 import React from "react";
 import EnquiryComponent from "../components/EnquiryComponent/EnquiryCompoent";
 import Header from "../components/Header/Header";
-import Imports from "../components/Imports/Imports";
+import Imports from "../components/Imports";
 const Enquiry = () => {
   return (
     <>

@@ -13,14 +13,14 @@ const ServicesSection = () => {
 
   return (
     <section
-      className="wpo-Service-section section-padding-60 bg-theme-home pt-0"
+      className="wpo-Service-section section-padding-60 bg-theme-home"
       id="Service"
     >
       <div className="container">
         <div className="wpo-section-title">
           {/* <h4>Our Services</h4> */}
-          <h4>Our Services</h4>
-          <h2 className="text-black">Your Vision, Our Expertise</h2>
+          <h4>Our Events</h4>
+          <h2 className="text-black">Let experiences take centre stage</h2>
         </div>
         <div className="wpo-Service-wrap ">
           <div className="row d-flex align-items-center justify-content-center">
@@ -36,7 +36,7 @@ const ServicesSection = () => {
                 </div>
                 <div className="wpo-Service-text">
                   <Link to="/wedding-events" className="gilroy-font">
-                    Production
+                    Wedding Events
                   </Link>
                 </div>
               </div>
@@ -55,7 +55,7 @@ const ServicesSection = () => {
                 </div>
                 <div className="wpo-Service-text">
                   <Link to="/corporate-events" className="gilroy-font">
-                    Management
+                    Corporate Events
                   </Link>
                 </div>
               </div>
