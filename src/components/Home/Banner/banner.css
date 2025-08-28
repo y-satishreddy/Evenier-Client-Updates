@@ -80,7 +80,7 @@
 
 .banner-content {
   position: absolute;
-  top: 40%; /* Adjust to move text higher or lower */
+  top: 50%; /* Adjust to move text higher or lower */
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
@@ -100,7 +100,7 @@
 
 /* ================================================================ */
 .hero-section {
-  background-image: url("../../../assets/images/banner/slider-19.jpg");
+  background-image: url("../../../assets/images/banner/slider-20.jpg");
   background-size: cover;
   background-position: center;
   height: 90vh;
@@ -120,6 +120,7 @@
 .hero-content {
   position: relative;
   height: 100%;
+  top: -15%;
 }
 .theme-btn-s5:hover,
 .theme-btn-s5:focus,

@@ -12,14 +12,13 @@ const WelcomeSection = () => {
       <div className="container">
         <div className="wpo-section-title no-margin-bottom no-lines text-start p-3">
           <h2 className="text-capitalize" data-aos="zoom-in">
-            Preserving the joy, beauty, and meaning of your most special
-            occasions
+            Production
           </h2>
-          <p className="gilroy-font">
-            We craft experiences that mirror your vision, from intimate weddings
-            to corporate celebrations. With a professional dedicated team, we
-            pour passion and precision into every detail to make each moment
-            unforgettable.
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book.
           </p>
         </div>
       </div>

@@ -40,9 +40,9 @@ const Home = () => {
       <Counter />
 
       {/* Target section */}
-      <Element name="formSection">
+      {/* <Element name="formSection">
         <Form />
-      </Element>
+      </Element> */}
 
       <Collaborators />
       <TestimonialSlider />

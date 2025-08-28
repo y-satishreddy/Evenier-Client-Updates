@@ -21,6 +21,9 @@ import CorporateGallery from "./pages/CorporateGallery";
 import SchoolGallery from "./pages/SchoolGallery";
 import TermsAndConditions from "./pages/TermsAndConditions";
 import Careers from "./pages/Careers";
+import EnquireNowBtn from "./components/EnquiryPopup/EnquiryBtn";
+import Production from "./pages/Production";
+import Management from "./pages/Management";
 function App() {
   const [loading, setLoading] = useState(true);
 
@@ -39,6 +42,7 @@ function App() {
     <>
       <Imports />
       <ScrollToTop />
+      <EnquireNowBtn />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
@@ -51,11 +55,13 @@ function App() {
         <Route path="/corporate-gallery" element={<CorporateGallery />} />
         <Route path="school-gallery" element={<SchoolGallery />} />
         <Route path="/contact-us" element={<ContactUs />} />
-        <Route path="/enquiry" element={<Enquiry />} />
+        <Route path="/enquire" element={<Enquiry />} />
         <Route path="/privacy-policy" element={<PrivacyAndPolicy />} />
         <Route path="/404" element={<ErrorPage />} />
         <Route path="/terms-conditions" element={<TermsAndConditions />} />
         <Route path="/career" element={<Careers />}></Route>
+        <Route path="/production" element={<Production />}></Route>
+        <Route path="/management" element={<Management />}></Route>
       </Routes>
       <FaArrow />
       <Footer />

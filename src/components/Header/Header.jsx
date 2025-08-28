@@ -222,11 +222,20 @@ const Header = () => {
                           </li>
                         </ul>
                       </li>
+                      <li className="menu-item-has-children">
+                        <Link to="#">Services</Link>
+                        <ul className="sub-menu">
+                          <li>
+                            <Link to="/production">Production</Link>
+                          </li>
+                          <li>
+                            <Link to="/management">Management</Link>
+                          </li>
+                        </ul>
+                      </li>
+
                       <li>
                         <Link to="/contact">Contact</Link>
-                      </li>
-                      <li>
-                        <Link to="/enquiry">Enquire Now</Link>
                       </li>
                     </ul>
                   </div>

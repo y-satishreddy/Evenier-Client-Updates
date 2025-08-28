@@ -15,9 +15,10 @@ const WelcomeSection = () => {
             Contact Us
           </h2>
           <p>
-            Whether you have questions, feedback, or want to learn more about
-            Evenire, feel free to reach out. Our team is ready to assist you and
-            ensure you have the best experience with us.
+            Whether you have questions, feedback, or wish to know more about
+            Evenire, we’d love to hear from you. Our team is always ready to
+            guide you, share details, and ensure that every interaction with us
+            is seamless, warm, and memorable.
           </p>
         </div>
       </div>

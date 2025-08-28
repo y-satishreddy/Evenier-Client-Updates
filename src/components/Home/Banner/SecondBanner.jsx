@@ -29,13 +29,13 @@ const HeroSection = () => {
             <p className="fs-6 text-white">
               We bring your vision to life in ways that last far beyond the day.
             </p>
-            <div className="mb-4 text-center">
+            {/* <div className="mb-4 text-center">
               <Link to="formSection" smooth={true} duration={500} offset={-70}>
                 <button type="button" className="theme-btn-s5">
                   Enquire Now
                 </button>
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

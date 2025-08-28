@@ -39,7 +39,7 @@ const AboutSection = () => {
                     All Your Exceptional Events
                   </h4>
                   <p>
-                    We also bring the same passion and care to every kind of
+                    We bring the same passion and care to every kind of
                     gathering, from small-scale private events to large-scale
                     public events.
                   </p>

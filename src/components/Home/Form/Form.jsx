@@ -122,7 +122,7 @@ const ContactSection = () => {
                       <option>Corporate Events</option>
                     </select>
                   </div>
-                  <div className="date">
+                  <div>
                     <input
                       className="form-control gilroy-font"
                       name="date"

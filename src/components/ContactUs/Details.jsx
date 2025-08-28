@@ -124,11 +124,8 @@ const ContactPageSection = () => {
               data-aos-delay="300"
               data-aos-duration="800"
             >
-              <h2>Have Any Question?</h2>
-              <p>
-                It is a long established fact that a reader will be distracted
-                by the readable content of a page when looking.
-              </p>
+              <h2>Have A Question?</h2>
+              <p>Please fill out the form below, and we’ll get back to you.</p>
             </div>
 
             {/* Contact Form */}
